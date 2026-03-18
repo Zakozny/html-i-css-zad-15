@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 2</title>
+    <link href="zad3.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+<table>
+<tr><td>5 różnych sposobów podłączania pliku css do strony www</tr></td>
+</table>
+<h1> 1)Zewnętrzny arkusz stylów.</h1>
+<textarea>
+<head>
+         <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+ </textarea>
+<h3>2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony</h3>
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+<h3>3)Wewnętrzny arkusz stylów.</h3>
+<textarea>
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea>
+<h3>4)Alternatywny arkusz stylów.</h3>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+<h3>5)Import arkusza stylów</h3>
+<textarea>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</body>
+</html>

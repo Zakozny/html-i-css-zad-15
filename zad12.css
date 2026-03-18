@@ -1,0 +1,14 @@
+textarea {
+    resize: none;
+    width: 600px;  
+    height: 400px;
+}
+p{
+background-color: yellow;
+}
+h1{
+background-color: green;
+}
+h2{
+background-color: lightyellow
+}

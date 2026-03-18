@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="zad9.css" rel="stylesheet">
+</head>
+<body>
+<textarea>
+1.Składnia teoretyczna:
+<head>
+(...)
+<link rel="Stylesheet" type="text/css" href="style.css" />
+(...)
+</head>
+</textarea>
+<textarea>
+2. Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS?:
+ można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+- każdy jako osobny element <link rel="Stylesheet" />. 
+</textarea>
+<textarea>
+3. Jak jest najprostsza forma wstawiania stylu zewnętrznego → otoczony ramką (może
+być tabela jedno komórkowa?:
+Wstawienie →wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy
+znacznikami <head> a </head>), przedstawioną powyżej linijkę:
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</textarea>
+<textarea>
+4. Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+musi być zachowana przy większej ilości dołączanych styli?
+można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+rozszerzenie *.css
+</textarea>
+<textarea>
+5.Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.:
+W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+</textarea>
+<textarea>
+6. Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?:
+Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+edytowania wystarczy zwykły edytor tekst.
+</textarea>
+<textarea>
+7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS? :
+Uruchomienie edytora – Otwiera się dedykowany program do kodowania.
+
+Utworzenie nowego pliku – Wybiera się opcję "Nowy plik" (New File).
+
+Zapisanie pliku z odpowiednim rozszerzeniem – Plik zapisuje się z rozszerzeniem .css (np. style.css), aby edytor rozpoznał język i włączył odpowiednie funkcje.
+
+Kolorowanie składni (Syntax Highlighting) – Edytor automatycznie koloruje poszczególne elementy kodu (selektory, właściwości, wartości), co ułatwia czytanie i wychwytywanie błędów.
+
+Podpowiadanie składni (IntelliSense / Autouzupełnianie) – Podczas pisania edytor podpowiada dostępne właściwości CSS oraz ich możliwe wartości (np. wpisując background- edytor podpowie color, image, size itd.).
+
+Walidacja na bieżąco – Edytor często podkreśla błędy składniowe (np. brak średnika, nieznana właściwość) jeszcze przed uruchomieniem strony.
+
+Podgląd na żywo (opcjonalnie) – Niektóre zaawansowane edytory lub wtyczki do nich pozwalają na podgląd zmian na stronie w czasie rzeczywistym bez konieczności odświeżania przeglądarki.
+(to wziołem z internetu bo nie mogłem znaleźć w instukcji)
+</textarea>
+<textarea>
+6.Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?:
+Za pomocą rozszerzenia pliku css
+</textarea>
+<textarea>
+8. Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?:
+"style.css" jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne
+polecenia, które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej.
+</textarea>
+<textarea>
+9. Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?
+Zalety zewnętrznego arkusza styli:
+1)wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.
+2) jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich
+stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez
+konieczności zmiany każdej strony osobno. 
+</textarea>
+<textarea>
+10. Uwagi na temat pisania w CSS. 
+Uwagi na temat zewnętrznych CSS:
+• Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.
+(sekcja head )
+• można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+- każdy jako osobny element <link rel="Stylesheet" />.
+• W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+• Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+edytowania wystarczy zwykły edytor tekst.
+• Można się posłużyć specjalnym edytorem CSS.
+• Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+rozszerzenie *.css
+</textarea>
+</body>
+</html>

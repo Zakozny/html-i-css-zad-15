@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 2</title>
+    <link rel="stylesheet" href="zad8.css">
+</head>
+<body>
+<h1>1.Gdzie jest wstawiany?</h1>
+<h1>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a
+</head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż
+domyślne)</h1>
+<h1>składnia teoretyczna:</h1>
+<textarea>
+<head>
+(...)
+ <style type="text/css">
+ /* <![CDATA[ */
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ (...)
+ /* ]]> */
+ </style>
+(...)
+</head>
+</textarea>
+<h1>3)jakie mogą być selektory,</h1>
+<h1>Rodzaje selektorów</h1>
+<h1>1)selektor prosty (selektor typu)
+2)selektor uniwersalny
+3)selektor potomka
+4)selektor dziecka
+5)selektor braci
+6)selektor atrybutu</h1>
+<h1>4)jakie mogą być cechy i wartości.</h1>
+<h1>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.</h1>
+<h1>"cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+formatowania nam chodzi (opisane w kolejnych rozdziałach).</h1>
+<h1>"wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy
+rozdzielone średnikami.</h1>
+</body>
+</html>
